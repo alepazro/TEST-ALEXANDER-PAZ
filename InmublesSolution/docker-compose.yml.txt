@@ -1,0 +1,47 @@
+services:
+  mongo_db:
+    image: mongo:7.0
+    container_name: mongo_db
+    ports:
+      - "27017:27017"
+    volumes:
+      - /Backend/dbMongo:/data/db  # <--- Monto el volumen local aquí
+    networks:
+      - inmuebles-network
+      
+  inmuebles-api:
+    build:
+      context: ./Backend/Inmubles.Api
+      dockerfile: Dockerfile
+    container_name: inmuebles_api
+    ports:
+      - "5001:443"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Dav.123*
+      - MongoDbSettings__ConnectionString=mongodb://mongo_db:27017
+      - MongoDbSettings__DatabaseName=InmueblesDB
+    volumes:
+      - ./https:/https:ro
+    depends_on:
+      - mongo_db
+    networks:
+      - inmuebles-network  
+      
+  react-app:
+    build:
+      context: ./Frontend/inmuebles-app
+      dockerfile: Dockerfile  # Dockerfile para aplicación React en la raíz del proyecto
+    container_name: react_app
+    ports:
+      - "3000:3000"  # Puertos para acceder a tu aplicación React desde el navegador
+    depends_on:
+      - inmuebles-api  # dependa de la API 
+    networks:
+      - inmuebles-network
+
+networks:
+  inmuebles-network:
+    driver: bridge

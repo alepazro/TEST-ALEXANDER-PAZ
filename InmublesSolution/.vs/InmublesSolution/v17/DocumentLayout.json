@@ -1,0 +1,204 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D653A8F0-A20E-4201-B85B-58C295FC7E40}|Inmubles.Api\\Inmubles.Api.csproj|c:\\users\\dapr1\\source\\repos\\inmublessolution\\inmubles.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D653A8F0-A20E-4201-B85B-58C295FC7E40}|Inmubles.Api\\Inmubles.Api.csproj|solutionrelative:inmubles.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A79E3491-210D-4DF4-81E2-B944E28CA440}|Inmubles.Infrastructure\\Inmubles.Infrastructure.csproj|c:\\users\\dapr1\\source\\repos\\inmublessolution\\inmubles.infrastructure\\repositories\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A79E3491-210D-4DF4-81E2-B944E28CA440}|Inmubles.Infrastructure\\Inmubles.Infrastructure.csproj|solutionrelative:inmubles.infrastructure\\repositories\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E18CBC-4CD8-4E91-ACB3-F8BF95F58EB1}|Inmubles.Domain\\Inmubles.Domain.csproj|c:\\users\\dapr1\\source\\repos\\inmublessolution\\inmubles.domain\\interfaces\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E18CBC-4CD8-4E91-ACB3-F8BF95F58EB1}|Inmubles.Domain\\Inmubles.Domain.csproj|solutionrelative:inmubles.domain\\interfaces\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AF3530A-0353-4D67-BCC7-D20C2F162DC8}|Inmubles.Aplication\\Inmubles.Aplication.csproj|c:\\users\\dapr1\\source\\repos\\inmublessolution\\inmubles.aplication\\queries\\property\\getpropertywithimagesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AF3530A-0353-4D67-BCC7-D20C2F162DC8}|Inmubles.Aplication\\Inmubles.Aplication.csproj|solutionrelative:inmubles.aplication\\queries\\property\\getpropertywithimagesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AF3530A-0353-4D67-BCC7-D20C2F162DC8}|Inmubles.Aplication\\Inmubles.Aplication.csproj|c:\\users\\dapr1\\source\\repos\\inmublessolution\\inmubles.aplication\\queries\\property\\getpropertywithimagesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AF3530A-0353-4D67-BCC7-D20C2F162DC8}|Inmubles.Aplication\\Inmubles.Aplication.csproj|solutionrelative:inmubles.aplication\\queries\\property\\getpropertywithimagesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E18CBC-4CD8-4E91-ACB3-F8BF95F58EB1}|Inmubles.Domain\\Inmubles.Domain.csproj|c:\\users\\dapr1\\source\\repos\\inmublessolution\\inmubles.domain\\modelsresult\\propertyfilterresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E18CBC-4CD8-4E91-ACB3-F8BF95F58EB1}|Inmubles.Domain\\Inmubles.Domain.csproj|solutionrelative:inmubles.domain\\modelsresult\\propertyfilterresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D653A8F0-A20E-4201-B85B-58C295FC7E40}|Inmubles.Api\\Inmubles.Api.csproj|c:\\users\\dapr1\\source\\repos\\inmublessolution\\inmubles.api\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D653A8F0-A20E-4201-B85B-58C295FC7E40}|Inmubles.Api\\Inmubles.Api.csproj|solutionrelative:inmubles.api\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D653A8F0-A20E-4201-B85B-58C295FC7E40}|Inmubles.Api\\Inmubles.Api.csproj|c:\\users\\dapr1\\source\\repos\\inmublessolution\\inmubles.api\\controllers\\propertyimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D653A8F0-A20E-4201-B85B-58C295FC7E40}|Inmubles.Api\\Inmubles.Api.csproj|solutionrelative:inmubles.api\\controllers\\propertyimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AF3530A-0353-4D67-BCC7-D20C2F162DC8}|Inmubles.Aplication\\Inmubles.Aplication.csproj|c:\\users\\dapr1\\source\\repos\\inmublessolution\\inmubles.aplication\\queries\\property\\getallpropertysqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AF3530A-0353-4D67-BCC7-D20C2F162DC8}|Inmubles.Aplication\\Inmubles.Aplication.csproj|solutionrelative:inmubles.aplication\\queries\\property\\getallpropertysqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AF3530A-0353-4D67-BCC7-D20C2F162DC8}|Inmubles.Aplication\\Inmubles.Aplication.csproj|c:\\users\\dapr1\\source\\repos\\inmublessolution\\inmubles.aplication\\queries\\property\\getallpropertysquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AF3530A-0353-4D67-BCC7-D20C2F162DC8}|Inmubles.Aplication\\Inmubles.Aplication.csproj|solutionrelative:inmubles.aplication\\queries\\property\\getallpropertysquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AF3530A-0353-4D67-BCC7-D20C2F162DC8}|Inmubles.Aplication\\Inmubles.Aplication.csproj|c:\\users\\dapr1\\source\\repos\\inmublessolution\\inmubles.aplication\\queries\\propertyimage\\getallpropertyimagequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AF3530A-0353-4D67-BCC7-D20C2F162DC8}|Inmubles.Aplication\\Inmubles.Aplication.csproj|solutionrelative:inmubles.aplication\\queries\\propertyimage\\getallpropertyimagequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "Inmubles.Api\\Dockerfile",
+              "ToolTip": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Api\\Dockerfile",
+              "RelativeToolTip": "Inmubles.Api\\Dockerfile",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-06T05:01:49.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PropertyFilterResult.cs",
+              "DocumentMoniker": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Domain\\ModelsResult\\PropertyFilterResult.cs",
+              "RelativeDocumentMoniker": "Inmubles.Domain\\ModelsResult\\PropertyFilterResult.cs",
+              "ToolTip": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Domain\\ModelsResult\\PropertyFilterResult.cs",
+              "RelativeToolTip": "Inmubles.Domain\\ModelsResult\\PropertyFilterResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T04:41:01.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPropertyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Domain\\Interfaces\\IPropertyRepository.cs",
+              "RelativeDocumentMoniker": "Inmubles.Domain\\Interfaces\\IPropertyRepository.cs",
+              "ToolTip": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Domain\\Interfaces\\IPropertyRepository.cs",
+              "RelativeToolTip": "Inmubles.Domain\\Interfaces\\IPropertyRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwA4AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T04:32:48.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetPropertyWithImagesQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Aplication\\Queries\\Property\\GetPropertyWithImagesQueryHandler.cs",
+              "RelativeDocumentMoniker": "Inmubles.Aplication\\Queries\\Property\\GetPropertyWithImagesQueryHandler.cs",
+              "ToolTip": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Aplication\\Queries\\Property\\GetPropertyWithImagesQueryHandler.cs",
+              "RelativeToolTip": "Inmubles.Aplication\\Queries\\Property\\GetPropertyWithImagesQueryHandler.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAIAzwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T22:11:51.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PropertyImageController.cs",
+              "DocumentMoniker": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Api\\Controllers\\PropertyImageController.cs",
+              "RelativeDocumentMoniker": "Inmubles.Api\\Controllers\\PropertyImageController.cs",
+              "ToolTip": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Api\\Controllers\\PropertyImageController.cs",
+              "RelativeToolTip": "Inmubles.Api\\Controllers\\PropertyImageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T21:57:17.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Api\\Controllers\\PropertyController.cs",
+              "RelativeDocumentMoniker": "Inmubles.Api\\Controllers\\PropertyController.cs",
+              "ToolTip": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Api\\Controllers\\PropertyController.cs",
+              "RelativeToolTip": "Inmubles.Api\\Controllers\\PropertyController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBsAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T21:54:56.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetPropertyWithImagesQuery.cs",
+              "DocumentMoniker": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Aplication\\Queries\\Property\\GetPropertyWithImagesQuery.cs",
+              "RelativeDocumentMoniker": "Inmubles.Aplication\\Queries\\Property\\GetPropertyWithImagesQuery.cs",
+              "ToolTip": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Aplication\\Queries\\Property\\GetPropertyWithImagesQuery.cs",
+              "RelativeToolTip": "Inmubles.Aplication\\Queries\\Property\\GetPropertyWithImagesQuery.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T22:54:12.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PropertyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Infrastructure\\Repositories\\PropertyRepository.cs",
+              "RelativeDocumentMoniker": "Inmubles.Infrastructure\\Repositories\\PropertyRepository.cs",
+              "ToolTip": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Infrastructure\\Repositories\\PropertyRepository.cs",
+              "RelativeToolTip": "Inmubles.Infrastructure\\Repositories\\PropertyRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwC0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T22:03:51.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetAllPropertysQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Aplication\\Queries\\Property\\GetAllPropertysQueryHandler.cs",
+              "RelativeDocumentMoniker": "Inmubles.Aplication\\Queries\\Property\\GetAllPropertysQueryHandler.cs",
+              "ToolTip": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Aplication\\Queries\\Property\\GetAllPropertysQueryHandler.cs",
+              "RelativeToolTip": "Inmubles.Aplication\\Queries\\Property\\GetAllPropertysQueryHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T22:05:37.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetAllPropertysQuery.cs",
+              "DocumentMoniker": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Aplication\\Queries\\Property\\GetAllPropertysQuery.cs",
+              "RelativeDocumentMoniker": "Inmubles.Aplication\\Queries\\Property\\GetAllPropertysQuery.cs",
+              "ToolTip": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Aplication\\Queries\\Property\\GetAllPropertysQuery.cs",
+              "RelativeToolTip": "Inmubles.Aplication\\Queries\\Property\\GetAllPropertysQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T22:11:21.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetAllPropertyImageQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Aplication\\Queries\\PropertyImage\\GetAllPropertyImageQueryHandler.cs",
+              "RelativeDocumentMoniker": "Inmubles.Aplication\\Queries\\PropertyImage\\GetAllPropertyImageQueryHandler.cs",
+              "ToolTip": "C:\\Users\\dapr1\\source\\repos\\InmublesSolution\\Inmubles.Aplication\\Queries\\PropertyImage\\GetAllPropertyImageQueryHandler.cs",
+              "RelativeToolTip": "Inmubles.Aplication\\Queries\\PropertyImage\\GetAllPropertyImageQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T21:41:44.914Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

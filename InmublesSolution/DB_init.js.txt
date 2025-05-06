@@ -1,0 +1,114 @@
+// Selecciona o crea la base de datos
+db = db.getSiblingDB('InmueblesDB');
+
+// Owner
+db.Owner.insertOne({
+  IdOwner: 1,
+  Name: "Juan Pérez",
+  Address: "Calle Falsa 123",
+  Photo: "https://example.com/photo.jpg",
+  Birthday: ISODate("1985-04-10")
+});
+
+
+// URLs de imágenes para insertar
+const imageUrls = [
+  "https://www.bbva.com/wp-content/uploads/2021/04/casas-ecolo%CC%81gicas_apertura-hogar-sostenibilidad-certificado-.jpg",
+  "https://images.homify.com/v1443654352/p/photo/image/960352/Imativa_Casa_Carrasco_0013.jpg",
+  "https://images.homify.com/v1443654387/p/photo/image/960356/Imativa_Casa_Carrasco_0015.jpg"
+];
+
+
+const propertyData = [
+  { IdProperty:1,Name: "Casa Bonita", Address: "Av. Central 456", Price: 250000, CodeInternal: "INT1234", Year: 2010 },
+  { IdProperty:2,Name: "Casa de la Playa", Address: "Playa del Sol 789", Price: 350000, CodeInternal: "INT1235", Year: 2015 },
+  { IdProperty:3,Name: "Apartamento Moderno", Address: "Calle Real 101", Price: 120000, CodeInternal: "INT1236", Year: 2018 },
+  { IdProperty:4,Name: "Loft Elegante", Address: "Av. Libertad 202", Price: 180000, CodeInternal: "INT1237", Year: 2020 },
+  { IdProperty:5,Name: "Mansión de Lujo", Address: "Calle del Río 303", Price: 600000, CodeInternal: "INT1238", Year: 2005 },
+  { IdProperty:6,Name: "Casa Colonial", Address: "Barrio Histórico 404", Price: 280000, CodeInternal: "INT1239", Year: 1999 },
+  { IdProperty:7,Name: "Piso en Centro", Address: "Calle Mayor 505", Price: 150000, CodeInternal: "INT1240", Year: 2012 },
+  { IdProperty:8,Name: "Vivienda en Suburbio", Address: "Zona Norte 606", Price: 220000, CodeInternal: "INT1241", Year: 2008 },
+  { IdProperty:9,Name: "Estudio Moderno", Address: "Calle de los Árboles 707", Price: 100000, CodeInternal: "INT1242", Year: 2021 },
+  { IdProperty:10,Name: "Casa Rústica", Address: "Camino Verde 808", Price: 170000, CodeInternal: "INT1243", Year: 2013 },
+  { IdProperty:11,Name: "Chalet de Montaña", Address: "Calle del Bosque 909", Price: 400000, CodeInternal: "INT1244", Year: 2016 },
+  { IdProperty:12,Name: "Bungalow en Costa", Address: "Calle Mar Azul 1010", Price: 250000, CodeInternal: "INT1245", Year: 2017 },
+  { IdProperty:13,Name: "Casa con Jardín", Address: "Calle Primavera 1111", Price: 230000, CodeInternal: "INT1246", Year: 2011 },
+  { IdProperty:14,Name: "Apartamento de Estilo", Address: "Calle de la Paz 1212", Price: 190000, CodeInternal: "INT1247", Year: 2019 },
+  { IdProperty:15,Name: "Finca de Campo", Address: "Ruta 40 1313", Price: 500000, CodeInternal: "INT1248", Year: 2004 },
+  { IdProperty:16,Name: "Piso Reformado", Address: "Calle Sevilla 1414", Price: 140000, CodeInternal: "INT1249", Year: 2010 },
+  { IdProperty:17,Name: "Casa Familiar", Address: "Calle del Sol 1515", Price: 300000, CodeInternal: "INT1250", Year: 2014 },
+  { IdProperty:18,Name: "Vivienda Estilo Minimalista", Address: "Calle Nueva 1616", Price: 200000, CodeInternal: "INT1251", Year: 2020 },
+  { IdProperty:19,Name: "Casa en Urbanización", Address: "Calle del Lago 1717", Price: 270000, CodeInternal: "INT1252", Year: 2011 },
+  { IdProperty:20,Name: "Piso en El Centro", Address: "Calle Barcelona 1818", Price: 220000, CodeInternal: "INT1253", Year: 2016 },
+  { IdProperty:21,Name: "Casa en el Campo", Address: "Calle Verde 1919", Price: 240000, CodeInternal: "INT1254", Year: 2009 },
+  { IdProperty:22,Name: "Loft en la Ciudad", Address: "Calle Industrial 2020", Price: 210000, CodeInternal: "INT1255", Year: 2021 },
+  { IdProperty:23,Name: "Residencia Privada", Address: "Av. de la Independencia 2121", Price: 320000, CodeInternal: "INT1256", Year: 2017 },
+  { IdProperty:24,Name: "Chalet con Vista", Address: "Calle Montaña 2222", Price: 380000, CodeInternal: "INT1257", Year: 2012 },
+  { IdProperty:25,Name: "Estudio en el Mar", Address: "Avenida Costera 2323", Price: 150000, CodeInternal: "INT1258", Year: 2019 },
+  { IdProperty:26,Name: "Casa Con Piscina", Address: "Calle Azul 2424", Price: 400000, CodeInternal: "INT1259", Year: 2018 },
+  { IdProperty:27,Name: "Piso con Balcón", Address: "Calle Delicias 2525", Price: 180000, CodeInternal: "INT1260", Year: 2020 },
+  { IdProperty:28,Name: "Casa con Vista al Lago", Address: "Calle Lago Azul 2626", Price: 500000, CodeInternal: "INT1261", Year: 2007 },
+  { IdProperty:29,Name: "Apartamento con Vista", Address: "Calle Horizontes 2727", Price: 230000, CodeInternal: "INT1262", Year: 2015 },
+  { IdProperty:30,Name: "Casa de Verano", Address: "Calle del Sol 2828", Price: 300000, CodeInternal: "INT1263", Year: 2016 },
+  { IdProperty:31,Name: "Loft en la Playa", Address: "Avenida Pacífico 2929", Price: 350000, CodeInternal: "INT1264", Year: 2021 },
+  { IdProperty:32,Name: "Vivienda de Lujo", Address: "Calle Estrella 3030", Price: 600000, CodeInternal: "INT1265", Year: 2006 },
+  { IdProperty:33,Name: "Casa de Campo", Address: "Camino de los Pinos 3131", Price: 250000, CodeInternal: "INT1266", Year: 2005 },
+  { IdProperty:34,Name: "Piso Elegante", Address: "Calle del Arte 3232", Price: 180000, CodeInternal: "INT1267", Year: 2014 },
+  { IdProperty:35,Name: "Apartamento Amueblado", Address: "Avenida Centro 3333", Price: 120000, CodeInternal: "INT1268", Year: 2020 },
+  { IdProperty:36,Name: "Chalet Familiar", Address: "Calle de la Rosa 3434", Price: 450000, CodeInternal: "INT1269", Year: 2013 },
+  { IdProperty:37,Name: "Casa en la Montaña", Address: "Calle del Valle 3535", Price: 380000, CodeInternal: "INT1270", Year: 2012 },
+  { IdProperty:38,Name: "Piso Lujoso", Address: "Calle Flor 3636", Price: 280000, CodeInternal: "INT1271", Year: 2019 },
+  { IdProperty:39,Name: "Vivienda Familiar", Address: "Calle Familias 3737", Price: 230000, CodeInternal: "INT1272", Year: 2010 },
+  { IdProperty:40,Name: "Casa en Pueblo", Address: "Calle Plaza 3838", Price: 200000, CodeInternal: "INT1273", Year: 2014 },
+  { IdProperty:41,Name: "Estudio Amplio", Address: "Calle Nueva 3939", Price: 150000, CodeInternal: "INT1274", Year: 2016 },
+  { IdProperty:42,Name: "Piso en Barrio", Address: "Calle del Barrio 4040", Price: 180000, CodeInternal: "INT1275", Year: 2018 },
+  { IdProperty:43,Name: "Casa Rústica con Jardín", Address: "Calle Rural 4141", Price: 250000, CodeInternal: "INT1276", Year: 2011 },
+  { IdProperty:44,Name: "Casa en la Playa", Address: "Playa Bonita 4242", Price: 350000, CodeInternal: "INT1277", Year: 2017 },
+  { IdProperty:45,Name: "Apartamento con Terraza", Address: "Avenida de la Costa 4343", Price: 220000, CodeInternal: "INT1278", Year: 2020 },
+  { IdProperty:46,Name: "Vivienda con Patio", Address: "Calle del Patio 4444", Price: 290000, CodeInternal: "INT1279", Year: 2021 },
+  { IdProperty:47,Name: "Chalet de Montaña", Address: "Calle Sierra 4545", Price: 450000, CodeInternal: "INT1280", Year: 2015 },
+  { IdProperty:48,Name: "Loft con Balcón", Address: "Avenida Montaña 4646", Price: 220000, CodeInternal: "INT1281", Year: 2020 },
+  { IdProperty:49,Name: "Piso en Centro Histórico", Address: "Calle Antigua 4747", Price: 210000, CodeInternal: "INT1282", Year: 2019 },
+  { IdProperty:50,Name: "Casa en Urbanización Privada", Address: "Calle Urbano 4848", Price: 300000, CodeInternal: "INT1283", Year: 2014 },
+  { IdProperty:51,Name: "Estudio Urbano", Address: "Calle Urbana 4949", Price: 160000, CodeInternal: "INT1284", Year: 2021 },
+  { IdProperty:52,Name: "Casa con Garaje", Address: "Calle Garaje 5050", Price: 250000, CodeInternal: "INT1285", Year: 2016 },
+];
+
+// Inserta cada propiedad en la base de datos
+propertyData.forEach((property, index) => {
+  db.Property.insertOne({
+    IdProperty: property.IdProperty,
+    Name: property.Name,
+    Address: property.Address,
+    Price: property.Price,
+    CodeInternal: property.CodeInternal,
+    Year: property.Year,
+    IdOwner: 1
+  });
+});
+
+// Insertar imágenes para cada propiedad
+propertyData.forEach((property, index) => {
+  // Inserta las 3 imágenes para cada propiedad
+  imageUrls.forEach((imageUrl, i) => {
+    db.PropertyImage.insertOne({
+      IdPropertyImage: (index * 3) + (i + 1), // Esto asegura que cada imagen tenga un ID único
+      IdProperty: property.IdProperty,
+      File: imageUrl,
+      Enable: true
+    });
+  });
+});
+
+
+
+
+// PropertyTrace
+db.PropertyTrace.insertOne({
+  IdPropertyTrace: 1,
+  DateSale: ISODate("2023-12-01"),
+  Name: "Venta inicial",
+  Value: 250000,
+  Tax: 5000,
+  IdProperty: 1
+});

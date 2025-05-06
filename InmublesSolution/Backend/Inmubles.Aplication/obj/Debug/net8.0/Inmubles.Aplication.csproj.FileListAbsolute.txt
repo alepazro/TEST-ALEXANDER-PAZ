@@ -1,0 +1,15 @@
+C:\Users\dapr1\source\repos\InmublesSolution\Inmubles.Aplication\bin\Debug\net8.0\Inmubles.Aplication.deps.json
+C:\Users\dapr1\source\repos\InmublesSolution\Inmubles.Aplication\bin\Debug\net8.0\Inmubles.Aplication.dll
+C:\Users\dapr1\source\repos\InmublesSolution\Inmubles.Aplication\bin\Debug\net8.0\Inmubles.Aplication.pdb
+C:\Users\dapr1\source\repos\InmublesSolution\Inmubles.Aplication\bin\Debug\net8.0\Inmubles.Domain.dll
+C:\Users\dapr1\source\repos\InmublesSolution\Inmubles.Aplication\bin\Debug\net8.0\Inmubles.Domain.pdb
+C:\Users\dapr1\source\repos\InmublesSolution\Inmubles.Aplication\obj\Debug\net8.0\Inmubles.Aplication.csproj.AssemblyReference.cache
+C:\Users\dapr1\source\repos\InmublesSolution\Inmubles.Aplication\obj\Debug\net8.0\Inmubles.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dapr1\source\repos\InmublesSolution\Inmubles.Aplication\obj\Debug\net8.0\Inmubles.Aplication.AssemblyInfoInputs.cache
+C:\Users\dapr1\source\repos\InmublesSolution\Inmubles.Aplication\obj\Debug\net8.0\Inmubles.Aplication.AssemblyInfo.cs
+C:\Users\dapr1\source\repos\InmublesSolution\Inmubles.Aplication\obj\Debug\net8.0\Inmubles.Aplication.csproj.CoreCompileInputs.cache
+C:\Users\dapr1\source\repos\InmublesSolution\Inmubles.Aplication\obj\Debug\net8.0\Inmubles.2D5B9870.Up2Date
+C:\Users\dapr1\source\repos\InmublesSolution\Inmubles.Aplication\obj\Debug\net8.0\Inmubles.Aplication.dll
+C:\Users\dapr1\source\repos\InmublesSolution\Inmubles.Aplication\obj\Debug\net8.0\refint\Inmubles.Aplication.dll
+C:\Users\dapr1\source\repos\InmublesSolution\Inmubles.Aplication\obj\Debug\net8.0\Inmubles.Aplication.pdb
+C:\Users\dapr1\source\repos\InmublesSolution\Inmubles.Aplication\obj\Debug\net8.0\ref\Inmubles.Aplication.dll

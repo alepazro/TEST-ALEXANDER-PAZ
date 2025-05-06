@@ -1,0 +1,149 @@
+/* Home Page Container */
+.home-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Filter Container Styles */
+  .filter-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 700px;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  .filter-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 180px;
+  }
+  
+  .filter-container button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .filter-container button:hover {
+    background-color: #216b9c;
+  }
+  
+  /* Filter Buttons */
+  .clear-filters-btn,
+  .apply-filters-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .clear-filters-btn:hover,
+  .apply-filters-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .apply-filters-btn {
+    background-color: #2ecc71; /* Verde para aplicar filtros */
+  }
+  
+  .apply-filters-btn:hover {
+    background-color: #27ae60;
+  }
+  
+  .clear-filters-btn {
+    background-color: #e74c3c; /* Rojo para limpiar filtros */
+  }
+  
+  .clear-filters-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Property List Styles - 3 por fila */
+  .property-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  /* Property Card Styles */
+  .property-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .property-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .property-title {
+    font-size: 20px;
+    color: #2980b9;
+    margin: 10px 0;
+  }
+  
+  .property-address {
+    color: #7f8c8d;
+    margin-bottom: 8px;
+  }
+  
+  .property-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+    margin-bottom: 10px;
+  }
+  
+  /* Imagen principal con aspecto proporcionado */
+  .main-image img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  /* Image Slider Styles */
+  .image-slider {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 5px;
+  }
+  
+  .image-slider img.thumbnail {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s, border 0.2s;
+  }
+  
+  .image-slider img.thumbnail:hover {
+    transform: scale(1.05);
+  }
+  
+  .image-slider img.thumbnail.active {
+    border-color: #2980b9;
+  }
+  

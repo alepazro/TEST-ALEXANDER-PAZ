@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "oL0KBBrTOWzX3IbcAQA5JJcrIQy05J9QMgEsC6pGJ6A=",
+  "Source": "Inmubles.Api",
+  "BasePath": "_content/Inmubles.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
